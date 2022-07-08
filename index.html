@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilosindex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"><title>Wibi viajes</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous"/>
+    <link rel="icon" href="img/wibi-logo-removebg-preview.png">
+</head>
+  <body>
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container">
+                  <a class="navbar-brand" href="index.html">
+                      <img src="img/wibi-logo.png" alt="" width="40rem">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item me-4">
+                        <a class="nav-link" aria-current="page" href="#">Galeria</a>
+                      </li>
+                      <li class="nav-item me-4">
+                        <a class="nav-link" aria-current="page" href="#">Hoteles</a>
+                      </li>
+                      <li class="nav-item me-4">
+                        <a class="nav-link" aria-current="page" href="#">Restaurantes</a>
+                      </li>
+                      <li class="nav-item me-4">
+                        <a class="nav-link" aria-current="page" href="#">Tour</a>
+                      </li>
+                      <li class="nav-item mx-4">
+                        <a class="nav-link" href="#">Tramites</a>
+                      </li>
+                      <li class="nav-item me-4">
+                        <a class="nav-link" aria-current="page" href="#">Mas informacion</a>
+                      </li>
+                      <li class="nav-item me-4">
+                        <a class="nav-link" aria-current="page" href="#">Nosotros</a>
+                      </li>
+                      <li class="nav-item ms-4 d-flex align-items-center">
+                        <button type="button" class="btn button-emp" onclick="window.location.href='empieza.html' ">Empieza</button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    
+    <main>
+<!-------------------------------------------CARRUCEL------------------------------------------------------------->
+      
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false" style="height: 54rem;">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner" style="height: 54rem;">
+        <div class="carousel-item active" style="height: 54rem;">
+          <img src="img/museo1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Avenida México</h1>
+            <h3>Una de las avenidas principales de la ciudad de Tepic</h3>
+          </div>
+        </div>
+        <div class="carousel-item" style="height: 54rem;">
+          <img src="img/fuente_tepic.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h1>Plaza de Tepic</h1>
+            <h3>Aquí podrás tomar el turibus o caminar por las calles</h3>
+          </div>
+        </div>
+        <div class="carousel-item" style="height: 54rem;">
+          <img src="img/tepic.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Catedral de Tepic</h1>
+            <h3>Uno de los monumentos más representativos de la ciudad</h3>
+          </div>
+        </div>
+        <div class="carousel-item" style="height: 54rem;">
+          <img src="img/zitakua.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Zitacua</h1>
+            <h3>Un lugar cultural de tepic que significa "lugar donde crece el maiz"</h3>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+      <hr>
+
+      
+<!-------------------------------------------CONOCE TEPIC-------------------------------------------------------------->
+      <div class="space5"></div>
+      <div class="container text-center"  style="color: black;">
+            <div class="row"  style="color: black;">
+                <div class="col-12" style="color: black;">
+                    <h1 class="d-md-block d-none" style="color: #f05236;">Conoce Tepic, la ciudad que sonrie</h1>
+                    <h2 class="d-md-none d-block" style="color: #f05236;">Conoce Tepic la ciudad que sonrie</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6 offset-lg-3">
+                    <h3 class="d-md-block d-none" style="color: #339fff;">Todo a traves de nosotros</h3>
+                    <h4 class="d-md-none d-block" style="color: #339fff;">Todo a traves de nosotros</h4>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="container text-center"  style="color: black;">
+        <img src="img/wibi-text.png" class="card-img-top" alt="..." style="height: 60%; width: auto;">
+      </div>
+
+      <div class="space20">
+      </div>
+      
+      <!-------------------------------------------HISTORIAS INTERESANTES---------------------------------------------->
+    <div class="container text-center">
+      <div class="row"  style="color: black;">
+        <div class="col-12" style="color: black;">
+          <h1 class="d-md-block d-none" style="color: #339fff;">Historias interesantes</h1>
+          <h2 class="d-md-none d-block" style="color: #339fff;">Historias interesantes</h2>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="card bg-dark text-black" style="height: 20rem; width: 30%; margin-left: 1rem; margin-bottom: 10rem;">
+          <img src="img/puga.jpg" class="card-img-top" alt="..." style="height: 100%; width: 100%;">
+            <div class="card-body">
+              <h4 class="card-title" style="margin: 0; padding-bottom: 5px; padding-top: 5px;">Los arcos</h4>
+              <p class="card-text">Dentro de un pequeño pueblo, es donde suceden estos sucesos, los arcos son llamados los caminos de agua, los lugareños han transmitido historias de amor sobre este lugar</p>
+            </div>
+        </div>
+        <div class="card bg-dark text-black" style="height: 20rem; width: 30%; margin-left: 1rem; margin-bottom: 10rem;">
+          <img src="img/panteon.jpeg" class="card-img-top" alt="..." style="height: 100%; width: 100%;">
+            <div class="card-body">
+              <h4 class="card-title" style="margin: 0; padding-bottom: 5px; padding-top: 5px;">Panteon San juan</h4>
+              <p class="card-text">¿ALguna ves has escuchado sobre fantasmas? Dentro de este recinto se hacen recorridos nocturnos para contar y ver con tus propios ojos las hostorias que parecian irreales.</p>
+            </div>
+        </div>
+        <div class="card bg-dark text-black" style="height: 20rem; width: 30%; margin-left: 1rem; margin-bottom: 10rem;">
+          <img src="img/CANTERA.jpg" class="card-img-top" alt="..." style="height: 100%; width: 100%;">
+            <div class="card-body">
+              <h4 class="card-title" style="margin: 0; padding-bottom: 5px; padding-top: 5px;">La niña del lunar</h4>
+              <p class="card-text">Pantanal es un hermoso pueblo alejado de la capital, en este lugar, a pesar de su hermosa apariencia, tiene sus propias historias de miedo</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="space20"></div>
+
+      <!---------------------------------------------QUE QUIERES HACER---------------------------------------------->
+    <div class="container text-center"  style="color: black;">
+      <div class="row"  style="color: black;">
+        <div class="col-12" style="color: black;">
+          <h1 class="d-md-block d-none" style="color: #339fff;">¿Que quieres hacer?</h1>
+          <h2 class="d-md-none d-block" style="color: #339fff;">¿Que quieres hacer?</h2>
+        </div>
+      </div>
+      
+      <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-2">
+          <img src="img/restaurant-circle.png" class="bd-placeholder-img rounded-circle" alt="..." style=" width: 140px; height: 140px;">
+          <h4 class="fw-normal">Restaurantes</h4>
+          <p><a class="btn" href="#" style="background-color: #339fff; color: white;">Mas detalles &raquo;</a></p>
+        </div>
+        <div class="col-lg-2">
+          <img src="img/pool-circle.png" class="bd-placeholder-img rounded-circle" alt="..." style=" width: 140px; height: 140px;">
+          <h4 class="fw-normal">Albercas</h4>
+          <p><a class="btn" href="#" style="background-color: #339fff; color: white;">Mas detalles &raquo;</a></p>
+        </div>
+        <div class="col-lg-2">
+          <img src="img/dance-circle.png" class="bd-placeholder-img rounded-circle" alt="..." style=" width: 140px; height: 140px;">
+          <h4 class="fw-normal">Baile</h4>
+          <p><a class="btn" href="#" style="background-color: #339fff; color: white;">Mas detalles &raquo;</a></p>
+        </div>
+        <div class="col-lg-2">
+          <img src="img/hospital-circle.png" class="bd-placeholder-img rounded-circle" alt="..." style=" width: 140px; height: 140px;">
+          <h4 class="fw-normal">Hospitales</h4>
+          <p><a class="btn" href="#" style="background-color: #339fff; color: white;">Mas detalles &raquo;</a></p>
+        </div>
+        <div class="col-lg-2">
+          <img src="img/art-circle.png" class="bd-placeholder-img rounded-circle" alt="..." style=" width: 140px; height: 140px;">
+          <h4 class="fw-normal">Arte</h4>
+          <p><a class="btn" href="#" style="background-color: #339fff; color: white;">Mas detalles &raquo;</a></p>
+        </div>
+        <div class="col-lg-2">
+          <img src="img/iglesia-circle.png" class="bd-placeholder-img rounded-circle" alt="..." style=" width: 140px; height: 140px;">
+          <h4 class="fw-normal">Inglesias</h4>
+          <p><a class="btn" href="#" style="background-color: #339fff; color: white;">Mas detalles &raquo;</a></p>
+        </div>
+      </div>
+    </div>
+      <hr>
+      <div class="space20"></div>
+      
+      <!---------------------------------------------Guia del turista---------------------------------------------->
+    <div class="container text-center"  style="color: black;">
+      <div class="row"  style="color: black;">
+        <div class="col-12" style="color: black;">
+          <h1 class="d-md-block d-none" style="color: #339fff;">Guia para el turista</h1>
+          <h2 class="d-md-none d-block" style="color: #339fff;">Guia para el turista</h2>
+        </div>
+      </div>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-2">
+          <img src="img/guia6.png" alt="..." style=" width: 250px; height: auto;">
+        </div>
+        <div class="col-lg-2">
+          <img src="img/guia1.png" alt="..." style=" width: 250px; height: auto;">
+        </div>
+        <div class="col-lg-2">
+          <img src="img/guia4.png" alt="..." style=" width: 250px; height: auto;">
+        </div>
+        <div class="col-lg-2">
+          <img src="img/guia5.png" alt="..." style=" width: 250px; height: auto;">
+        </div>
+        <div class="col-lg-2">
+          <img src="img/guia7.png" alt="..." style=" width: 250px; height: auto;">
+        </div>
+        <div class="col-lg-2">
+          <img src="img/guia8.png" alt="..." style=" width: 250px; height: auto;">
+        </div>
+      </div>
+    </div>
+      <hr>
+      <div class="space20"></div>
+      
+      <!---------------------------------------------TIEMPO FAMILIAR---------------------------------------------->
+    <div class="container text-center"  style="color: black;">
+      <div class="row"  style="color: black;">
+        <div class="col-12" style="color: black;">
+          <h1 class="d-md-block d-none" style="color: #339fff;">Lugares para estar en familia</h1>
+          <h2 class="d-md-none d-block" style="color: #339fff;">Lugares para estar en familia</h2>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="card bg-dark text-black" style="height: 20rem; width: 30%; margin-left: 1rem; margin-bottom: 10rem;">
+          <img src="img/balneario.jpg" class="card-img-top" alt="..." style="height: 110%; width: auto;">
+          <div class="card-body">
+            <h3 class="card-title" style="margin: 0; padding-bottom: 5px; padding-top: 5px;">Balnearios</h3>
+          </div>
+        </div>
+        <div class="card bg-dark text-black" style="height: 20rem; width: 30%; margin-left: 1rem; margin-bottom: 10rem;">
+          <img src="img/botanero.jpg" class="card-img-top" alt="..." style="height: 100%; width: 100%;">
+          <div class="card-body">
+            <h3 class="card-title" style="margin: 0; padding-bottom: 5px; padding-top: 5px;">Botanero familiar</h3>
+          </div>
+        </div>
+        <div class="card bg-dark text-black" style="height: 20rem; width: 30%; margin-left: 1rem; margin-bottom: 10rem;">
+          <img src="img/laLoma.jpg" class="card-img-top" alt="..." style="height: 100%; width: 100%;">
+            <div class="card-body">
+              <h3 class="card-title" style="margin: 0; padding-bottom: 5px; padding-top: 5px;">La loma</h3>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card bg-dark text-black" style="height: 20rem; width: 30%; margin-left: 1rem; margin-bottom: 10rem;">
+          <img src="img/feria.jpg" class="card-img-top" alt="..." style="height: 100%; width: 100%;">
+            <div class="card-body">
+              <h3 class="card-title" style="margin: 0; padding-bottom: 5px; padding-top: 5px;">Feria nayarit</h3>
+            </div>
+        </div>
+        <div class="card bg-dark text-black" style="height: 20rem; width: 30%; margin-left: 1rem; margin-bottom: 10rem;">
+          <img src="img/teatro.jpg" class="card-img-top" alt="..." style="height: 100%; width: 100%;">
+            <div class="card-body">
+              <h3 class="card-title" style="margin: 0; padding-bottom: 5px; padding-top: 5px;">Teatro</h3>
+            </div>
+        </div>
+        <div class="card bg-dark text-black" style="height: 20rem; width: 30%; margin-left: 1rem; margin-bottom: 10rem;">
+          <img src="img/cine.jpg" class="card-img-top" alt="..." style="height: 100%; width: 100%;">
+            <div class="card-body">
+              <h3 class="card-title" style="margin: 0; padding-bottom: 5px; padding-top: 5px;">Cine</h3>
+            </div>
+        </div>
+      </div>
+
+      <div class="space20"></div>
+      <!-------------------------------------------footer------------------------------------------------------------->
+    
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="text-center text-md-start col-12 col-md-3"><img src="img/wibi-text.png" class="card-img" alt="..." style="height: 10rem; width: auto;"></div>
+            <div class="text-center text-md-3 col-12 col-md-3">
+              <h1 class="display-6">Contáctanos</h1>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <p class="lead"><i class="fa-solid fa-location-dot"></i> Avenida México #239 Tepic Nayarit</p>
+                </li>
+                <li class="nav-item">
+                  <p class="lead"><i class="fa-solid fa-phone"></i> 311 234 5678</p>
+                </li>
+                <li class="nav-item">
+                  <p class="lead"><i class="fa-solid fa-envelope"></i> viajeswibi@gmail.com</p>
+                </li>
+              </ul>
+            </div>
+            <div class="d-none d-md-block col-md-3 text-md-center">
+              <h1 class="display-6">Conócenos</h1>
+              <ul class="nav flex-column">
+              <li class="nav-item">
+                <p class="lead"><a href="" class="nav-link text-muted p-0">Nosotros</a></p>
+              </li>
+              <li class="nav-item">
+                <p class="lead"><a href="" class="nav-link text-muted p-0">Más información</a></p>
+              </li>
+              <li class="nav-item">
+                <p class="lead"><a href="" class="nav-link text-muted p-0">Trámites</a></p>
+              </li>
+              <li class="nav-item">
+                <p class="lead"><a href="" class="nav-link text-muted p-0">Transparencia</a></p>
+              </li>
+            </ul>
+          </div>
+          <div class="text-center text-md-end col-3 col-md-3">
+            <h1 class="display-6">Escríbenos</h1>
+            <p class="lead">Mándanos un correo electrónico.</p>
+            <button type="button" class="cont" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contáctanos</button>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header" style="color: #339fff;">
+            <h5 class="modal-title" id="staticBackdropLabel" style="color: #339fff;">Escríbenos</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form method="POST" action="#" class="needs-validation" novalidate>
+              <div class="col-auto form-floating mb-4 position-relative">
+                <input type="email" class="form-control" id="validationTooltip01" placeholder="emain" required>
+                <label for="validationTooltip01" class="form-label">Correo electrónico *</label>
+                <div class="invalid-tooltip">
+                    Por favor, escribe tu correo electrónico.
+                </div>
+              </div>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Escribe tu comentario" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Comentario.</label>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary button-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="submit" class="btn button-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+  </main>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v6.1.1/js/all.js" integrity="sha384-xBXmu0dk1bEoiwd71wOonQLyH+VpgR1XcDH3rtxrLww5ajNTuMvBdL5SOiFZnNdp" crossorigin="anonymous"></script>
+
+    <script>
+        var myModal = document.getElementById('myModal')
+        var myInput = document.getElementById('myInput')
+
+        myModal.addEventListener('shown.bs.modal', function () {
+            myInput.focus()
+        })
+    </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
